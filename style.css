@@ -2,6 +2,7 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 .header1{
     display: flex;
@@ -34,8 +35,8 @@ body{
     align-items: center;
 }
 .logoImg{
-    width: 7em;
-    height: 7em;
+    width: 5em;
+    height: 5em;
 }
 .linkToPage{
     display: flex;
@@ -58,7 +59,7 @@ body{
 
 .intro{
     color: white;
-    height: 30vw;
+    height: 100vh;
     background-image: url(img1.jpg);
     background-position: center;
     background-size:cover;
@@ -144,9 +145,10 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 80vw;
 }
 .testhr{
-    width: 40rem;
+    width: 70vw;
 }
 .footer1{
     background-color: #181818;
